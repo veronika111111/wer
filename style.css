@@ -45,7 +45,7 @@ header h1{
 }
 .home{
     margin-top: 60px;
-    margin-left: 60px;
+    margin-left: 80px;
     display: flex;
     flex-direction: column;
     width: 1280px;
@@ -71,6 +71,7 @@ header h1{
     margin-top: 443px;
     margin-left: 60px;
     font-family: 'Satoshi', sans-serif;
+    line-height: 26px;
 }
 .home img{
     width: 520px;
@@ -92,13 +93,224 @@ header h1{
 
 .page2{
     height: 355px;
+    width: 1300px;
     align-items: center;
-
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
 }
 h2{
+    text-align: center;
     margin-top: 60px;
     font-size: 24px;
     font-weight: 400;
     color: var(--color-blue);
     font-family: 'ComFortaa', sans-serif;
 }
+.block1{
+    width: 270px;
+    height: 124px;
+}
+.block1 img{
+    width: 24px;
+    height: 24px;
+}
+ h3{
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--color-blue);
+    font-family: 'ComFortaa', sans-serif;
+}
+.page2 p{
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--color-blue);
+    font-family: 'Satoshi', sans-serif;
+    line-height: 26px;
+}
+.block2{
+    width: 300px;
+    height: 124px;
+}
+.block2 img{
+    width: 24px;
+    height: 24px;
+}
+.block3{
+    width: 295px;
+    height: 124px;
+}
+.block3 img{
+    width: 24px;
+    height: 24px;
+}
+.block4{
+    width: 300px;
+    height: 124px;
+}
+.block4 img{
+    width: 24px;
+    height: 24px;
+}
+
+
+.page3{
+    width: 1280px;
+    height: 681px;
+   margin-left: 80px;
+}
+.page3 .cards{
+    display: flex;
+    justify-content: space-between;
+}
+.page3 h1{
+    margin-top: 80px;
+    margin-bottom: 36px;
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--color-blue);
+    font-family: 'ComFortaa', sans-serif;
+}
+.card{
+    width: 305px;
+    height: 462px;
+}
+.card img{
+    width: 305px;
+    height: 375px;
+}
+.card h3{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--color-blue);
+    font-family: 'ComFortaa', sans-serif;
+}
+.card p{
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--color-blue);
+    font-family: 'Satoshi', sans-serif;
+}
+.page3 button{
+    margin-left: 550px;
+    margin-top: 35px;
+    width: 170px;
+    height: 56px;
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--color-blue);
+    font-family: 'Satoshi', sans-serif;
+    border: none;
+    background-color: var(--color-white);
+}
+footer{
+    display: flex;
+    width: 1440px;
+    height: 238px;
+    background-color: #2A254B;
+}
+footer h1{
+    font-size: 36px;
+    font-weight: 300;
+    color: var(--color-white);
+    font-family: 'ComFortaa', sans-serif;
+    padding-top: 53px;
+    margin-left: 80px;
+}
+.adress p{
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--color-white);
+    font-family: 'Satoshi', sans-serif;
+    line-height: 26px;
+    width: 150px;
+    margin-left: 80px;
+}
+h4{
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--color-white);
+    font-family: 'ComFortaa', sans-serif;
+    padding-top: 53px;
+    margin-left: 114px;
+}
+footer img{
+    margin-left: 114px;
+    margin-top: ;
+}
+.tree{
+    width: 118px;
+    margin-left: 168px;
+}
+.tree p{
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--color-white);
+    font-family: 'Satoshi', sans-serif;
+    line-height: 26px;
+    width: 108px;
+    margin-left: 80px;
+}
+.tree h4{
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--color-white);
+    font-family: 'ComFortaa', sans-serif;
+    padding-top: 53px;
+    margin-left: 80px;
+}
+.four{
+    margin-left: 108px;
+}
+.four p{
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--color-white);
+    font-family: 'Satoshi', sans-serif;
+    line-height: 26px;
+    width: 62px;
+    margin-left: 80px;
+}
+.four h4{
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--color-white);
+    font-family: 'ComFortaa', sans-serif;
+    padding-top: 53px;
+    margin-left: 80px;
+}
+.five{
+    margin-left: 50px;
+}
+.five p{
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--color-white);
+    font-family: 'Satoshi', sans-serif;
+    line-height: 26px;
+    width: 62px;
+    margin-left: 80px;
+}
+.five h4{
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--color-white);
+    font-family: 'ComFortaa', sans-serif;
+    padding-top: 53px;
+    margin-left: 80px;
+}
+.soc{
+    display: inline-flex;
+    width: 254px;
+    height: 24px;
+    margin: auto;
+    margin-top: 24px;
+}
+
